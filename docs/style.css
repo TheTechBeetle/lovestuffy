@@ -1,0 +1,14 @@
+.topbar {
+    background-color: rgb(175, 175, 175);
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+}
+.toplist {
+    display: flex;
+    flex-direction:row;
+    list-style: none;
+    padding:10px;
+    margin: 0;
+}
