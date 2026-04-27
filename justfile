@@ -2,7 +2,7 @@
 run:
     npm run dev --prefix ./Lovestuffy.com
 
-build-ci:
+ci:
     npm ci --prefix ./Lovestuffy.com
 
 build:
