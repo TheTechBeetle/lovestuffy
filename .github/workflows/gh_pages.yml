@@ -2,7 +2,7 @@ name: Deploy Vite React App
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -22,15 +22,16 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
+
+      - name: Install just
+        run: sudo apt-get update && sudo apt-get install -y just
 
       - name: Install dependencies
-        working-directory: Lovestuffy.com
-        run: npm ci
+        run: just ci
 
       - name: Build
-        working-directory: Lovestuffy.com
-        run: npm run build
+        run: just build
 
       - uses: actions/configure-pages@v4
 
