@@ -8,5 +8,8 @@ run: install
 ci:
     npm ci --prefix ./Lovestuffy.com
 
-build:
+build: install
+    npm run build --prefix ./Lovestuffy.com
+
+build-ci: ci
     npm run build --prefix ./Lovestuffy.com
