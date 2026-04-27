@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import LoveStuffyImage from "./LoveStuffyImage";
 
 function TopBar() {
@@ -8,18 +9,25 @@ function TopBar() {
           <LoveStuffyImage width={100} />
         </li>
         <li>
-          <a href="index.html">
-            <div className="topbutton" id="homebutton">
+          <div className="topbutton" id="homebutton">
+            <Link to="/">
               <h2>Home</h2>
-            </div>
-          </a>
+            </Link>
+          </div>
         </li>
         <li>
-          <a href="SHOP">
-            <div className="topbutton" id="shopbutton">
+          <div className="topbutton" id="shopbutton">
+            <Link to="/characters">
+              <h2>Characters</h2>
+            </Link>
+          </div>
+        </li>
+        <li>
+          <div className="topbutton" id="shopbutton">
+            <Link to="/shop">
               <h2>Store</h2>
-            </div>
-          </a>
+            </Link>
+          </div>
         </li>
       </ul>
     </div>
