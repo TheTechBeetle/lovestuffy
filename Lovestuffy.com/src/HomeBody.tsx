@@ -4,7 +4,7 @@ import WhatLoveStuffy from "./WhatLoveStuffy";
 
 function HomeBody() {
   return (
-    <div id="body" style={{ position: "fixed", top: 140 }}>
+    <div id="body">
       <Intro />
       <WhatLoveStuffy />
     </div>
