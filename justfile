@@ -1,5 +1,8 @@
 # Run the development server for the website
-run:
+install:
+    npm install --prefix ./Lovestuffy.com
+
+run: install
     npm run dev --prefix ./Lovestuffy.com
 
 ci:
