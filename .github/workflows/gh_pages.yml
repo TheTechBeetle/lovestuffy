@@ -40,6 +40,8 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
     needs: build
     steps:
       - uses: actions/deploy-pages@v4
