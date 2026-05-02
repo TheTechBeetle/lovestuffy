@@ -1,11 +1,12 @@
 import CharacterCard from "./CharacterCard";
 import LoveStuffy from "./assets/Lovestufy.jpg";
+import Koko from "./assets/Koko,png";
 
 const CHARACTERS = [
   { name: "Lovestufy", image: LoveStuffy, description: "I EAT" },
   {
     name: "KoKo",
-    image: LoveStuffy,
+    image: Koko,
     description: "I am a axolotl INCORECT PICTURE",
   },
 ];
