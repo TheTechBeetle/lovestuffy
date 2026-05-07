@@ -1,9 +1,23 @@
 import CharacterCard from "./CharacterCard";
-import LoveStuffy from "./assets/Lovestufy.jpg";
+import LoveStufy from "./assets/Lovestufy.jpg";
 import Koko from "./assets/Koko.png";
 
 const CHARACTERS = [
-  { name: "Lovestufy", image: LoveStuffy, description: "I EAT" },
+  { 
+    name: "Lovestufy(real)",
+    image: LoveStuffy,
+    description: "The real Lovestufy",
+  },
+  {
+    name: "KoKo(real)",
+    image: KoKo,
+    description: "The real KoKo”,
+  },
+  {
+    name: "lovestufy",
+    image:lovestufy,
+    description:"I EAT",
+  },
   {
     name: "KoKo",
     image: Koko,
