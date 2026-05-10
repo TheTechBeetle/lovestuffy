@@ -5,18 +5,18 @@ import Koko from "./assets/Koko.png";
 const CHARACTERS = [
   { 
     name: "Lovestufy(real)",
-    image: LoveStuffy,
+    image: LoveStufy,
     description: "The real Lovestufy",
   },
   {
     name: "KoKo(real)",
-    image: KoKo,
-    description: "The real KoKo”,
+    image: Koko,
+    description: "The real KoKo",
   },
   {
     name: "lovestufy",
-    image:lovestufy,
-    description:"I EAT",
+    image: LoveStufy,
+    description: "I EAT",
   },
   {
     name: "KoKo",
