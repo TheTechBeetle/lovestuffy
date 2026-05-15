@@ -1,6 +1,7 @@
 import CharacterCard from "./CharacterCard";
 import LoveStufy from "./assets/Lovestufy.jpg";
 import Koko from "./assets/Koko.png";
+import Rkoko from "./assets/Rkoko.jpg";
 
 const CHARACTERS = [
   { 
@@ -10,7 +11,7 @@ const CHARACTERS = [
   },
   {
     name: "KoKo(real)",
-    image: Koko,
+    image: Rkoko,
     description: "The real KoKo",
   },
   {
