@@ -8,8 +8,8 @@ function CharacterCard({ name, image, description }: Props) {
   return (
     <div className="card">
       <p>{name}</p>
-      <div height=150px>
-        <img src={image} alt={name} width=200px />
+      <div height="150">
+        <img src={image} alt={name} width="200" />
       </div>
       <p>{description}</p>
     </div>
