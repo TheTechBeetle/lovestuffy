@@ -10,7 +10,7 @@ function CharacterCard({ name, image, description }: Props) {
       <p>{name}</p>
       <div style="height:150px">
         <img src={image} alt={name} width="200" />
-      </div
+      </div>
       <p>{description}</p>
     </div>
   );
