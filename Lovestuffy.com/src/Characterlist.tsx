@@ -1,6 +1,7 @@
 import LoveStufy from "./assets/Lovestufy.jpg";
 import Koko from "./assets/Koko.png";
 import Rkoko from "./assets/Rkoko.jpg";
+import Dstufy from "./assets/Dstufy.png"
 const CHARACTERS = [
   { 
     name: "Lovestufy(real)",
@@ -14,7 +15,7 @@ const CHARACTERS = [
   },
   {
     name: "lovestufy",
-    image: LoveStufy,
+    image: Dstufy,
     description: "I EAT",
   },
   {
